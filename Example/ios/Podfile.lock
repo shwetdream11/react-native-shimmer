@@ -6,11 +6,6 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
-  - React (0.57.8):
-    - React/Core (= 0.57.8)
-  - react-native-shimmer (0.4.1):
-    - React (>= 0.45.1)
-    - Shimmer (~> 1)
   - React/Core (0.57.8):
     - yoga (= 0.57.8.React)
   - React/CxxBridge (0.57.8):
@@ -57,7 +52,6 @@ DEPENDENCIES:
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
-  - react-native-shimmer (from `../../react-native-shimmer.podspec`)
   - React/Core (from `./../node_modules/react-native`)
   - React/CxxBridge (from `./../node_modules/react-native`)
   - React/DevSupport (from `./../node_modules/react-native`)
@@ -68,6 +62,7 @@ DEPENDENCIES:
   - React/RCTSettings (from `./../node_modules/react-native`)
   - React/RCTText (from `./../node_modules/react-native`)
   - React/RCTWebSocket (from `./../node_modules/react-native`)
+  - Shimmer
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -84,8 +79,6 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
   React:
     :path: "./../node_modules/react-native"
-  react-native-shimmer:
-    :path: "../../react-native-shimmer.podspec"
   yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -95,10 +88,9 @@ SPEC CHECKSUMS:
   Folly: c89ac2d5c6ab169cd7397ef27485c44f35f742c7
   glog: e8acf0ebbf99759d3ff18c86c292a5898282dcde
   React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
-  react-native-shimmer: 5f0d6556b577e4390e99ee16dd2667a6996f9015
   Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
   yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
 
-PODFILE CHECKSUM: e3cf1ead8566a7f97c0be51ea225d4825dc5210b
+PODFILE CHECKSUM: 2ad80f959e746db78cbd5c1b2162ed3868a1847d
 
 COCOAPODS: 1.5.3

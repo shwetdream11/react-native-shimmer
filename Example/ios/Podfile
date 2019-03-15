@@ -25,8 +25,8 @@ target 'Example' do
   # use_frameworks!
 
   # Pods for Example
-  pod 'react-native-shimmer', :path => '../../react-native-shimmer.podspec'
-
+#  pod 'react-native-shimmer', :path => '../../react-native-shimmer.podspec'
+  pod 'Shimmer'
   pod 'React', :path => './../node_modules/react-native', :subspecs => [
     'Core',
     'CxxBridge', # Include this for RN >= 0.47

@@ -6,7 +6,7 @@
 //  Copyright © 2016 Joel Arvidsson. All rights reserved.
 //
 
-#import "FBShimmeringView.h"
+#import <Shimmer/FBShimmering.h>
 
 @interface RNShimmeringView : FBShimmeringView
 
