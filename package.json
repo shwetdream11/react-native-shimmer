@@ -1,6 +1,6 @@
 {
   "name": "@dream11mobile/react-native-shimmer",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "Simple shimmering effect in React Native",
   "main": "index.js",
   "scripts": {
